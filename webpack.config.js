@@ -8,7 +8,7 @@ module.exports = (env, argv) => {
     return {
         entry: [
             "babel-polyfill",
-            path.join(__dirname, './src/index.js')
+            path.resolve('./src/app.js')
         ],
         devServer: {
             port: 3000,

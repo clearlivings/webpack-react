@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import Icon from '../assets/logo.png';
-import '../styles/index.less';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
 
 export default class App extends Component {
     render() {
         return (
             <div>
-                <img src={Icon} />
                 <h3>React demo12</h3>
             </div>
         )
